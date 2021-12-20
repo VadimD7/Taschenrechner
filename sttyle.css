@@ -1,17 +1,17 @@
-body {
-	margin: 7px;
-    font-family: "Century Gothic", sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #000000;
-    background-color: #fff;
+.block{
+    display: block;
+    text-align: center;
+    width: 1000px;
+    margin-top: 75px;
+    margin-left: 25%;
+    height: 550px;
+    background: rgb(0, 0, 0);
+    font-size: 20px
 }
-label {
-	margin: 12px;
+.marker{
+    text-align: left;
 }
-input {
-	margin: 10px;
-}
-button {
-	margin: 3px;
+.result{
+    font-size: 35px;
+    font-weight: bold;
 }
