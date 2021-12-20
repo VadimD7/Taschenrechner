@@ -1,12 +1,11 @@
-btn.addEventListener("click",fnc);
+send.addEventListener("click",fnc);
 function fnc(){
-    console.log(a1.checked);
-    console.log(a2.checked);
-    console.log(a3.checked);
-    console.log(a4.checked);
-    if (a4.checked){
-        alert("Right answer");
-    } else {
-        alert("Wrong answer");
-    }
+    let val_usage = admission.value;
+    let val_investing = consumption.value;
+
+    let val_income = parseInt(val_admission) - parseInt(val_consumption))
+        income.value = val_income
+   
+        result.innerHTML = val_result; 
+
 }
